@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "koa": "^2.13.4",
+    "promptly": "^3.2.0",
+    "tdl": "^7.0.0",
+    "tdl-tdlib-addon": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-bodyparser": "^4.3.4",
+    "koa-bodyparser": "^4.3.0",
+    "tdlib-types": "^0.1001007.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "serve": "ts-node src/app.ts"
+  }
+}
