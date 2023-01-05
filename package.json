@@ -15,6 +15,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "serve": "ts-node src/app.ts"
+    "serve": "ts-node src/app.ts",
+    "start": "node dist/app.js"
   }
 }
